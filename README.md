@@ -4,12 +4,8 @@ My Chrome Extension
 
 ## Features
 
-- Feature 1
-- Feature 2
-
-## Install
-
-[**Chrome** extension]() <!-- TODO: Add chrome extension link inside parenthesis -->
+- Search for bootstrap classes definition and description;
+- Tailwind classes pending...
 
 ## Contribution
 
