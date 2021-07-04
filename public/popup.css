@@ -1,0 +1,66 @@
+/* normalize css starts here */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 10px;
+  font-family: 'Fira Code', monospace;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
+}
+
+.app {
+  min-width: 630px;
+}
+
+.table {
+  width: 100%;
+  font-size: 18px;
+  padding: 12px;
+  padding-top: 4px;
+  border-radius: 5px;
+}
+
+#bootstrap_table {
+  color: #fff;
+  background: #563D7C;
+}
+
+#tailwind_table {
+  color: #fff;
+  background-image: linear-gradient(to right, #0ea5e9, #22d3ee);
+}
+
+.table > thead {
+  font-weight: bold;
+}
+
+.table > tbody td:nth-child(2) {
+  margin-left: 3px;
+}
+
+.separator {
+  margin: 5px 0px;
+  margin-bottom: 10px;
+}
+
+.section {
+  margin: 10px 0px;
+}
+
+input[type=text],
+input[type=password] {
+  padding: 10px;
+  width: 100%;
+}
